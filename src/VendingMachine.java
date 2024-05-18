@@ -1,17 +1,8 @@
 import java.util.List;
-import java.util.ArrayList;
 
-interface VendingMachine {
-
-    void addProduct(BottleOfWater product);
-
-    public void initProd(List<BottleOfWater>listProd);
-    public BottleOfWater getProduct(String name);
-
-
-
-
-
-
-
+public interface VendingMachine {
+    void addProduct(Product product);
+    void initProducts(List<Product> listProd);
+    Product getProduct(String name);
+    Product getProduct(String name, double volume, int temperature);
 }

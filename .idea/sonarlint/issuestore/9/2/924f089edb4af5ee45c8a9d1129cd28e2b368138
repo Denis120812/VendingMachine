@@ -1,2 +1,17 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(§ø‰8¸ßµŞø1
+’
+java:S1192"ODefine a constant instead of duplicating this literal ", Ğ¾Ğ±ÑŠĞµĞ¼: " 3 times.(ğ›€¼8Âßàø1J$d6334b14-9c8c-4603-aa30-edb5d44ff8b8
+
+java:S1192"[Define a constant instead of duplicating this literal ", Ñ‚ĞµĞ¼Ğ¿ĞµÑ€Ğ°Ñ‚ÑƒÑ€Ğ°: " 3 times.(ğ›€¼8Âßàø1J$ea06cc69-823f-47d6-b4a2-42c39e405b97
+™
+java:S1192"QDefine a constant instead of duplicating this literal "ĞŸÑ€Ğ¾Ğ´ÑƒĞºÑ‚: " 3 times.(äğß»şÿÿÿÿ8Âßàø1J$55046f55-0b67-416d-83bf-2788c959bb88
+•
+java:S1192"MDefine a constant instead of duplicating this literal ", Ñ†ĞµĞ½Ğ°: " 3 times.(äğß»şÿÿÿÿ8Âßàø1J$4b7aea1a-1211-44cb-b8d2-df29d8dc27ce
+¤
+java:S1192"aDefine a constant instead of duplicating this literal "ĞŸÑ€Ğ¾Ğ´ÑƒĞºÑ‚ Ğ½Ğµ Ğ½Ğ°Ğ¹Ğ´ĞµĞ½" 3 times.(Œ¥ÿæ8Âßàø1J$88c6fc35-d62f-426c-9f2b-e29c94a10e7f
+r	java:S106"+Replace this use of System.out by a logger.(äğß»şÿÿÿÿ8ìæÚàø1J$03f4f49d-174d-49e1-be75-6578d35a14a3
+m	java:S106"+Replace this use of System.out by a logger.(Œ¥ÿæ8íæÚàø1J$1a6a7b13-4f33-4c63-a15a-6b543e47d63e
+m	java:S106"+Replace this use of System.out by a logger.(Üø—µ8²şİàø1J$06702fdf-2784-41b6-8c7c-cd0cf657d212
+m	java:S106"+Replace this use of System.out by a logger.(Œ¥ÿæ8²şİàø1J$77d3ff93-6c49-44f5-8106-3beaccf06548
+m	java:S106 "+Replace this use of System.out by a logger.(€„À¿8Âßàø1J$5ed3c582-985c-4489-8194-1f9ba0e7f1b3
+m	java:S106#"+Replace this use of System.out by a logger.(Œ¥ÿæ8ŸÂßàø1J$61dc4bd8-a81f-4f92-82bb-23c5cebf11c8

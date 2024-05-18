@@ -9,3 +9,7 @@ F
 src/BottleOfWater.java,b/d/bd6cb26a5a0cb9797cdad11d48fcfb4f8fe06874
 T
 $src/VendingMachineBottleOfWater.java,e/3/e3475907b6e8b6f8cc77494579c8ae8459d545e9
+A
+src/HotDrink.java,e/a/eac8bd403d0b6d8bc26cec3e92363b9cfe0c44a0
+O
+src/HotDrinkVendingMachine.java,3/2/327c0d519caccd581681472698d9ed4dadcd5694

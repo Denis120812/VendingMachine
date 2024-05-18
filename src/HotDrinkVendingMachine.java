@@ -1,33 +1,26 @@
 import java.util.List;
 import java.util.ArrayList;
 
-public class VendingMachineBottleOfWater implements VendingMachine {
-    private List<BottleOfWater> listDrink;
+public class HotDrinkVendingMachine implements VendingMachine {
+    private List<Product> hotDrinkList;  // Поле объявлено как private
 
-    public VendingMachineBottleOfWater() {
-        listDrink = new ArrayList<>();
+    public HotDrinkVendingMachine() {
+        this.hotDrinkList = new ArrayList<>();
     }
 
     @Override
     public void addProduct(Product product) {
-        if (product instanceof BottleOfWater) {
-            listDrink.add((BottleOfWater) product);
-        }
+        hotDrinkList.add(product);
     }
 
     @Override
-    public void initProducts(List<Product> listDrink) {
-        this.listDrink = new ArrayList<>();
-        for (Product product : listDrink) {
-            if (product instanceof BottleOfWater) {
-                this.listDrink.add((BottleOfWater) product);
-            }
-        }
+    public void initProducts(List<Product> drink) {  // Исправлено имя метода
+        this.hotDrinkList = drink;
     }
 
     @Override
     public Product getProduct(String name) {
-        for (BottleOfWater product : listDrink) {
+        for (Product product : hotDrinkList) {
             if (product.getName().equals(name)) {
                 return product;
             }
@@ -37,7 +30,7 @@ public class VendingMachineBottleOfWater implements VendingMachine {
 
     @Override
     public Product getProduct(String name, double volume, int temperature) {
-        for (BottleOfWater product : listDrink) {
+        for (Product product : hotDrinkList) {
             if (product instanceof HotDrink) {
                 HotDrink hotDrink = (HotDrink) product;
                 if (hotDrink.getName().equals(name) && hotDrink.getVolume() == volume && hotDrink.getTemperature() == temperature) {
